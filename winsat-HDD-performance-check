@@ -1,0 +1,33 @@
+PS C:\WINDOWS\system32> winsat disk -seq -read -drive c
+Windows-Systembewertungstool
+> Wird ausgeführt: Featureaufzählung ''
+> Laufzeit 00:00:00.00
+> Wird ausgeführt: Speicherbewertung '-seq -read -drive c'
+> Laufzeit 00:00:07.47
+> Dshow-Videocodierzeit                        0.00000 s
+> Dshow-Videodecodierzeit                      0.00000 s
+> Media Foundation-Decodierzeit                0.00000 s
+> Disk  Sequential 64.0 Read                   436.64 MB/s          8.0
+> Gesamtausführungszeit 00:00:07.55
+PS C:\WINDOWS\system32> winsat disk -seq -read -drive F
+Windows-Systembewertungstool
+> Wird ausgeführt: Featureaufzählung ''
+> Laufzeit 00:00:00.00
+> Wird ausgeführt: Speicherbewertung '-seq -read -drive F'
+> Laufzeit 00:00:15.27
+> Dshow-Videocodierzeit                        0.00000 s
+> Dshow-Videodecodierzeit                      0.00000 s
+> Media Foundation-Decodierzeit                0.00000 s
+> Disk  Sequential 64.0 Read                   301.86 MB/s          7.7
+> Gesamtausführungszeit 00:00:15.50
+PS C:\WINDOWS\system32> winsat disk -seq -read -drive G
+Windows-Systembewertungstool
+> Wird ausgeführt: Featureaufzählung ''
+> Laufzeit 00:00:00.00
+> Wird ausgeführt: Speicherbewertung '-seq -read -drive G'
+> Laufzeit 00:00:03.61
+> Dshow-Videocodierzeit                        0.00000 s
+> Dshow-Videodecodierzeit                      0.00000 s
+> Media Foundation-Decodierzeit                0.00000 s
+> Disk  Sequential 64.0 Read                   2840.01 MB/s          9.2
+> Gesamtausführungszeit 00:00:03.70
